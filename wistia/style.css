@@ -1,0 +1,390 @@
+header.header-container {
+  display: flex;
+  background-color: #3764f0;
+}
+header.header-container p {
+  flex-basis: auto;
+  padding: 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Inter, Helvetica, Arial, sans-serif;
+}
+header.header-container button.login {
+  background-color: white;
+  color: #3b3b3b;
+  border-radius: 5px;
+  border: 0ch;
+  margin-left: 350px;
+  margin-top: 5px;
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: bold;
+}
+header.header-container button.start {
+  background-color: #3764f0;
+  color: white;
+  border-radius: 5px;
+  border: 0ch;
+  margin-left: 20px;
+  margin-top: 5px;
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+main.main-container {
+  display: flex;
+  background-image: url(background.webp);
+  background-color: #3764f0;
+  height: 700px;
+  align-items: center;
+}
+main.main-container section.left-side {
+  flex-basis: auto;
+  width: 35%;
+}
+main.main-container section.left-side h1 {
+  font-family: Walsheim, Georgia, serif;
+  font-size: 54px;
+  font-weight: 300;
+  line-height: 1.25;
+  margin-left: 80px;
+  margin-top: 80px;
+  color: white;
+}
+main.main-container section.left-side p {
+  font-family: Inter, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: white;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+main.main-container section.right-side {
+  flex-basis: auto;
+  width: 70%;
+}
+
+main.main-container section.right-side img.video {
+  border-radius: 5px;
+  margin-left: 150px;
+}
+div.button {
+  display: flex;
+}
+div.button button.left {
+  background-color: #d63280;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 200px;
+  height: 60px;
+  margin-left: 80px;
+  margin-top: 20px;
+  border-width: 0px;
+  font-weight: bold;
+}
+div.button button.right {
+  background-color: white;
+  color: #d63280;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 200px;
+  height: 60px;
+  margin-left: 10px;
+  margin-top: 20px;
+  border-width: 0px;
+  font-weight: bold;
+}
+div.separator {
+  height: 80px;
+  background-color: #41d0a3;
+}
+div.separator a {
+  color: #0a0a0a;
+  font-family: Walsheim, Georgia, serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.33;
+  padding-left: 70px;
+  text-decoration: none;
+}
+
+p.title {
+  font-family: Walsheim, Georgia, serif;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 100px;
+}
+button.center-button {
+  border-color: blue;
+  color: blue;
+  background-color: white;
+  margin-left: 600px;
+  font-size: 22px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+section.container {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+section.container div.first {
+  flex-basis: auto;
+  width: 25%;
+}
+section.container div.second {
+  flex-basis: auto;
+  width: 25%;
+}
+section.container div.third {
+  flex-basis: auto;
+  width: 25%;
+}
+section.container div.forth {
+  flex-basis: auto;
+  width: 25%;
+}
+section.container div.first h3,
+section.container div.second h3,
+section.container div.third h3,
+section.container div.forth h3 {
+  font-family: Walsheim, Georgia, serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.33;
+}
+section.container div.first p,
+section.container div.second p,
+section.container div.third p,
+section.container div.forth p {
+  font-family: Inter, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+section.box {
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 5px;
+  width: 1000px;
+  margin-left: 170px;
+  margin-top: 100px;
+}
+section.box p {
+  font-family: Walsheim, Georgia, serif;
+  font-weight: 300;
+  color: rgb(12, 12, 14);
+  font-size: 30px;
+  line-height: 1.33;
+  margin: 32px;
+}
+section.box div.name-box {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+section.box div.name-box img {
+  width: 60px;
+  flex-basis: auto;
+  height: 60px;
+  border-radius: 50%;
+  border: 4px solid #0170ff;
+  margin-left: 300px;
+}
+
+section.box div.name-box div.block {
+  display: block;
+}
+section.box div.name-box div.block h3 {
+  font-size: 24px;
+  line-height: 10px;
+  padding-left: 35px;
+  font-family: Inter, Helvetica, Arial, sans-serif;
+}
+section.box div.name-box div.block p.job {
+  font-size: 20px;
+  line-height: 10px;
+  color: #37373c;
+  color: #37373c;
+  font-family: Inter, Helvetica, Arial, sans-serif;
+}
+p.text-logo {
+  color: #1f1f22;
+  text-align: center;
+  font-family: Walsheim, Georgia, serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.33;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+div.logo {
+  display: flex;
+}
+div.logo img {
+  padding: 30px;
+}
+p.considration {
+  color: #1f1f22;
+  text-align: center;
+  font-family: Walsheim, Georgia, serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.33;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+section.link-video {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+section.link-video div {
+  display: block;
+  flex-basis: auto;
+  width: 30%;
+  padding-left: 50px;
+}
+section.link-video div h2 {
+  font-family: Walsheim, Georgia, serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.33;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+section.link-video div p {
+  line-height: 28px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #1f1f22;
+  font-family: Inter, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  font-weight: 400;
+}
+section.link-video div a {
+  color: #0170ff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+section.ready {
+  width: 100%;
+  height: 400px;
+  background-image: url(background.webp);
+  background-color: #3764f0;
+  background-repeat: no-repeat;
+}
+section.ready h2 {
+  font-family: Walsheim, Georgia, serif;
+  font-size: 54px;
+  font-weight: 300;
+  line-height: 1.25;
+  text-align: center;
+  color: white;
+  padding-top: 150px;
+}
+div.button-center {
+  display: flex;
+}
+div.button-center button.left-center {
+  background-color: #d63280;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 200px;
+  height: 60px;
+  margin-left: 470px;
+  margin-top: 50px;
+  border-width: 0px;
+  font-weight: bold;
+}
+div.button-center button.right-center {
+  background-color: white;
+  color: #d63280;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 200px;
+  height: 60px;
+  margin-left: 10px;
+  margin-top: 50px;
+  border-width: 0px;
+}
+footer {
+  background-color: rgb(31, 31, 34);
+  height: 800px;
+  padding-top: 150px;
+  padding-left: 50px;
+}
+footer h1 {
+  color: white;
+  font-size: 24px;
+  font-family: Inter, Helvetica, Arial, sans-serif;
+  margin-top: 20px;
+}
+footer p {
+  color: white;
+
+  font-size: 16px;
+  font-family: Inter, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  font-weight: 400;
+  margin-top: 30px;
+}
+footer p a {
+  color: rgb(0, 193, 133);
+  text-decoration: none;
+  margin-left: 2px;
+}
+footer div.footer {
+  display: flex;
+}
+footer div.footer nav {
+  flex-basis: auto;
+  width: 16%;
+  padding-left: 20px;
+}
+footer div.footer nav h4 {
+  color: rgb(163, 163, 171);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  line-height: 1.3;
+  margin-bottom: 8px;
+}
+footer div.footer nav li a {
+  color: rgb(248, 248, 249);
+  font-size: 15px;
+  line-height: 32px;
+  font-family: Inter, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  font-weight: 400;
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+footer p.last {
+  color: rgb(196, 196, 200);
+  margin: 30px 60px;
+  text-align: center;
+  padding-top: 80px;
+}
+footer p.last a {
+  color: rgb(196, 196, 200);
+  text-decoration: underline;
+}
